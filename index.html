@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avis Clients</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .reviews-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .review-card {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .stars {
+            color: #f8d64e;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .reviewer {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .comment {
+            font-size: 0.95em;
+            color: #555;
+            line-height: 1.4;
+        }
+
+        /* Styles responsives */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+                font-size: 14px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+                margin-bottom: 15px;
+            }
+
+            .review-card {
+                padding: 15px;
+            }
+
+            .comment {
+                font-size: 0.9em;
+            }
+
+            .reviews-container {
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Avis de nos Clients</h1>
+    <div class="reviews-container">
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <div class="reviewer">Jean D.</div>
+            <div class="comment">
+                "Très satisfait du service et des économies réalisées sur ma facture d’électricité."
+            </div>
+        </div>
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <div class="reviewer">Sophie L.</div>
+            <div class="comment">
+                "La pose des panneaux a été rapide et efficace. Équipe très professionnelle !"
+            </div>
+        </div>
+        <div class="review-card">
+            <div class="stars">★★★★☆</div>
+            <div class="reviewer">Marc T.</div>
+            <div class="comment">
+                "Grâce à la batterie virtuelle, nous utilisons toute notre production solaire. Très satisfait."
+            </div>
+        </div>
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <div class="reviewer">Isabelle P.</div>
+            <div class="comment">
+                "Depuis l’installation, notre facture a diminué de moitié. Je recommande !"
+            </div>
+        </div>
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <div class="reviewer">David M.</div>
+            <div class="comment">
+                "Un investissement rentable. La production des panneaux est conforme aux attentes."
+            </div>
+        </div>
+        <div class="review-card">
+            <div class="stars">★★★★☆</div>
+            <div class="reviewer">Clara G.</div>
+            <div class="comment">
+                "Les conseillers ont été à l’écoute et m’ont bien expliqué les avantages de l’autoconsommation."
+            </div>
+        </div>
+    </div>
+</body>
+</html>
